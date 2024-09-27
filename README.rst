@@ -5,7 +5,7 @@ Comprehensive Tutorial to HxS: The Tool for Designing Hardware/Software Interfac
 Foreword
 --------
 
-HxS, unlike other tools, uniquely designs hardware/software interfaces rather than merely describing them.
+HxS, unlike other tools, uniquely **designs** hardware/software interfaces rather than merely *describing* them.
 Launched in 2009 by a dedicated developer community, HxS utilized XML, guided by an XSD schema, to capture user ideas, and employed XSLT transformations to produce outputs for target domains such as VHDL, C, and WORD.
 Until 2011, HxS powered over a hundred FPGA designs and has been continuously developed, enhanced, and validated in response to real-time developer needs.
 HxS dramatically reduced the development effort by over 30% and accelerated time to market, thanks to improved quality and robust adaptability to requirement changes.
