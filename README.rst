@@ -34,6 +34,8 @@ interfaces has not seen the same level of evolution.
 
 HxS, unlike other tools, uniquely **designs** hardware/software interfaces rather than merely *describing* them.
 
+*Heinrich Diebel*
+
 
 History
 -------
@@ -75,3 +77,21 @@ excellent adaptability to requirement changes.
 
 Since mid of 2022, HxS is adult and has been used by new customers and the developer community itself in many 
 commercial projects very successfully.
+
+
+Introduction
+------------
+
+The introduction to HxS is based on example projects. The examples start with simple use cases and evolve into 
+more complex ones.
+
+The applied capabilities of HxS expand accordingly and are described in detail during their first application in an example. 
+Additionally, general tips on good design of HW/SW interfaces and good HxS design practices, such as naming objects, are provided. 
+All examples produce a finished IP for Xilinx and Altera FPGAs with AXI or Avalon bus connection. 
+These can be integrated and tested in base projects for evaluation boards of the respective manufacturers.
+
+The base projects are available on eccelerators' GitHub: https://github.com/eccelerators/tutorial-arty-z7 
+or https://github.com/eccelerators/tutorial-ep4ce30 repositories.
+
+
+ 
