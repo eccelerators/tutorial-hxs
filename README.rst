@@ -2,7 +2,7 @@
 Compact General Tutorial to Designing Hardware/Software Interfaces Simplified by HxS
 ====================================================================================
 
-
+--------
 Foreword
 --------
 
@@ -37,7 +37,7 @@ HxS, unlike other tools, uniquely **designs** hardware/software interfaces rathe
 
 *Heinrich Diebel*
 
-
+-------
 History
 -------
 
@@ -79,7 +79,7 @@ excellent adaptability to requirement changes.
 Since mid of 2022, HxS is adult and has been used by new customers and the developer community itself in many 
 commercial projects very successfully.
 
-
+------------
 Introduction
 ------------
 
@@ -93,6 +93,273 @@ These can be integrated and tested in base projects for evaluation boards of the
 
 The base projects are available on eccelerators' GitHub: https://github.com/eccelerators/tutorial-arty-z7 
 or https://github.com/eccelerators/tutorial-ep4ce30 repositories.
+
+--------
+Examples
+--------
+
+``````````````````
+Bit Field Register
+``````````````````
+
+:::::::::
+Essential
+:::::::::
+
+:::::
+Names
+:::::
+
+::::::::::::
+Descriptions
+::::::::::::
+
+::::::::::::::::::
+Implicitly Running
+::::::::::::::::::
+
+::::::::::
+Dictionary
+::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::
+Implicitly Stopped with explicit Reset Values
+:::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::
+Explicit Reset Values
+:::::::::::::::::::::
+
+:::::::::::::::::::::
+Generic Reset Values
+:::::::::::::::::::::
+
+::::::::
+No Reset
+::::::::
+
+::::::::::::::::::::::::
+Explicit Address Offsets
+::::::::::::::::::::::::
+
+::::::::::::::::::::::
+Explicit Bit Positions
+::::::::::::::::::::::
+
+::::::::::::::::::::::::::::
+Explicit Bit Field Behaviour
+::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::
+Explicit Value Behaviour
+::::::::::::::::::::::::
+
+::::::::::::::::::
+WriteRegisterPulse
+::::::::::::::::::
+
+::::::::::::
+Asynchronous
+::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::
+Asynchronous with Write Acknowledge Delay
+:::::::::::::::::::::::::::::::::::::::::
+
+abc
+
+```````````````````````````
+Bit Field Write Transparent
+```````````````````````````
+
+:::::::::::::::::::::::
+Write Transparent Pulse
+:::::::::::::::::::::::
+
+::::::::::::
+Asynchronous
+::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::
+Asynchronous with Write Acknowledge Delay
+:::::::::::::::::::::::::::::::::::::::::
+
+abc
+
+``````````````````````````
+Bit Field Read Transparent
+``````````````````````````
+
+::::::::::::::::
+Read Transparent
+::::::::::::::::
+
+::::::::::::::::::::::
+Read Transparent Pulse
+::::::::::::::::::::::
+
+::::::::::::
+Asynchronous
+::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::
+Asynchronous with Read Acknowledge Delay
+::::::::::::::::::::::::::::::::::::::::
+
+abc
+
+`````````````````````
+Bit Field Transparent
+`````````````````````
+
+::::::::::::::::
+Transparent
+::::::::::::::::
+
+::::::::::::::::::::::::::::::::
+Write and Read Transparent Pulse
+::::::::::::::::::::::::::::::::
+
+::::::::::::
+Asynchronous
+::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+Asynchronous with Write and Read Acknowledge Delay
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+abc
+
+```````````````````````
+Bitfield Write Register
+```````````````````````
+
+::::::::::::::::
+Transparent
+::::::::::::::::
+
+::::::::::::::::::::::::::::::::
+Write and Read Transparent Pulse
+::::::::::::::::::::::::::::::::
+
+::::::::::::
+Asynchronous
+::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+Asynchronous with Write and Read Acknowledge Delay
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+abc
+
+```````````````````````
+Bitfield Loop Back
+```````````````````````
+
+:::::::::
+Loop Back
+:::::::::
+
+abc
+
+`````````````````
+Bitfield Constant
+`````````````````
+
+::::::::
+Constant
+::::::::
+
+:::::::
+Generic
+:::::::
+abc
+
+````````````````````
+Generic Reset Values
+````````````````````
+abc
+
+```````````````
+Wildcard Values
+```````````````
+abc
+
+```````````
+Inheritance
+```````````
+abc
+
+::::::
+Object
+::::::
+
+:::::::::
+Reference
+:::::::::
+abc
+
+`````````
+Libraries
+`````````
+abc
+
+::::::::
+Built In
+::::::::
+
+:::::::::
+Own
+:::::::::
+abc
+
+```````````````
+Multiple Resets
+```````````````
+abc
+
+::::::::
+Synchron
+::::::::
+
+:::::::::
+Asynchron
+:::::::::
+abc
+
+:::::::::
+Mixed
+:::::::::
+abc
+
+``````````````````````````````````````````````````
+Asynchron and Synchron Bit Fields in same Register
+``````````````````````````````````````````````````
+abc
+
+``````````````````````````````````
+Multiple Registers at same Address
+``````````````````````````````````
+
+abc
+
+::::::::::::::::::::::::::::::::
+Selected by either Read or Write
+::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::
+Selected/Unlocked by other Register
+:::::::::::::::::::::::::::::::::::
+abc
+
+
+
+..
+  _Titles are underlined (or over- and underlined) with a printing non alphanumeric 7-bit ASCII character. 
+  Recommended choices are = - ` : ' " ~ ^ _ * + # < >.
+  The underline/overline must be at least as long as the title text.
+  A lone top-level (sub)section is lifted up to be the document's (sub)title.
+
 
 
  
