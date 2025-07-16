@@ -1,0 +1,117 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17" pages="2">
+  <diagram name="process" id="iScBeSMaEyQ9SDScRNar">
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z0KqfwHu9sykCBARlBRA-1" value="vhdl Quellcode Realisierung" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="340" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Z0KqfwHu9sykCBARlBRA-4" value="FPGA vendor synthese (vivado AMD, quartus alterra, diamond lattice)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z0KqfwHu9sykCBARlBRA-7" value="Bitstream" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z0KqfwHu9sykCBARlBRA-8" value="vendor programming tool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z0KqfwHu9sykCBARlBRA-9" value="hardware testboard" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z0KqfwHu9sykCBARlBRA-12" value="hdl simulator (modelsim, questa, ghdl, riviera...)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z0KqfwHu9sykCBARlBRA-13" value="Simulationsergebnis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z0KqfwHu9sykCBARlBRA-16" value="simulations testbench" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NAsaDfZXO-Y-H_M5DMNU" name="simulation">
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="80" width="680" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;test bench&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="150" width="370" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-4" value="DUT/IP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-5" value="simstm für CPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0.279;exitY=0.286;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WTfI2HeTDTSbUXU-axNR-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-7" value="BUS (Axilite, Wishbone, Avalon)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-8" value="simstm code" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0.983;exitY=0.588;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WTfI2HeTDTSbUXU-axNR-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="290" as="sourcePoint" />
+            <mxPoint x="240" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-10" value="HxS interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.017;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="WTfI2HeTDTSbUXU-axNR-7" target="WTfI2HeTDTSbUXU-axNR-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-13" value="user logic zB pulsegeneratorplain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="WTfI2HeTDTSbUXU-axNR-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="315" as="sourcePoint" />
+            <mxPoint x="630" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-16" value="blockdown blockup" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-17" value="puls and failure check unit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WTfI2HeTDTSbUXU-axNR-17" target="WTfI2HeTDTSbUXU-axNR-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-19" value="pulse and failure output" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WTfI2HeTDTSbUXU-axNR-17" target="WTfI2HeTDTSbUXU-axNR-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WTfI2HeTDTSbUXU-axNR-24" value="test signals" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="325" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
